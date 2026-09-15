@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fogmakar-code.github.io/maxlife-ai-portfolio-pages/sitemap.xml
