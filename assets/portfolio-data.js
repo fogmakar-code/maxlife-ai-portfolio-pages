@@ -1,5 +1,6 @@
 window.PORTFOLIO = {
   series: {
+    ldLatte: {title:'LD_LATTE', subtitle:'Юбка с оборкой', category:'Одежда · 5 карточек', description:'Серия из пяти карточек: главный образ, ракурсы на модели, фактура ткани, детали и размерная сетка.', role:'Концепция серии, генерация изображений и инфографика.', images:Array.from({length:5},(_,i)=>`ld-latte-${String(i+1).padStart(2,'0')}.webp`)},
     perfume: {title:'Antonio Banderas', subtitle:'King of Seduction Absolute', category:'Парфюм · 7 карточек', description:'Премиальная серия из обычного фото флакона: тёмный камень, направленный свет, ноты аромата и выразительные детали.', role:'Концепция, генерация сцен, композиция и оформление серии.', source:'king-of-seduction-ishodnoe-foto.webp', images:Array.from({length:7},(_,i)=>`king-of-seduction-kartochka-${String(i+1).padStart(2,'0')}.webp`)},
     nord: {title:'NORD WOOD', subtitle:'Кухонный стол', category:'Мебель · 5 карточек', description:'Единая серия для маркетплейса: главный кадр, преимущества, конструкция, размеры и сценарии использования.', role:'Подготовка визуалов из исходного фото, инфографика и дизайн карточек.', source:'nord-wood-ishodnoe-foto.webp', images:Array.from({length:5},(_,i)=>`nord-wood-wildberries-${String(i+1).padStart(2,'0')}.webp`)},
     bona: {title:'BONA FIDE', subtitle:'Красный спортивный топ', category:'Спортивная одежда · 6 карточек', description:'Красно-графитовая серия о посадке, конструкции, ткани и движении.', role:'Визуальная концепция, изображения и инфографика.', images:Array.from({length:6},(_,i)=>`bona-fide-card-${String(i+1).padStart(2,'0')}.webp`)},
@@ -22,3 +23,4 @@ window.PORTFOLIO = {
     bimMirrors: {title:'Бим · Первые зеркала — из камня?!', caption:'Видеовставки и коллаж · полный выпуск', file:'bim-mirrors.mp4', poster:'bim-mirrors-poster.webp'}
   }
 };
+
